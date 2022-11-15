@@ -4,35 +4,34 @@ html {
   text-align: center;
 }
 
-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: hsl(0, 0%, 100%);
-  width: 350px;
-  margin: 50px auto;
-  padding: 10px;
-  box-shadow: 3px 3px 10px rgb(201, 200, 200);
-  border-radius: 8px;
+#card {
+  width: 20%;
+  margin: auto;
+  padding-bottom: 1.5rem;
+  background-color: white;
+  border-radius: 9px;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.2);
 }
 
 main img {
-  width: 300px;
-  border-radius: 8px;
+  margin-top: 10px;
+  width: 250px;
+  border-radius: 9px;
   object-fit: cover;
-  margin: 0;
 }
 
 main h2 {
-  margin: 24px 0 8px 0;
-  padding: ;
   font-family: "Outfit", sans-serif;
-  font-size: medium;
+  font-size: large;
   font-weight: 700;
+  margin: 12px 30px;
+  color: hsl(218, 44%, 22%);
 }
 
 main p {
   font-family: "Outfit", sans-serif;
   font-size: 15px;
   font-weight: 400;
+  margin: 12px 20px;
+  color: hsl(220, 15%, 55%);
 }
