@@ -1,0 +1,38 @@
+html {
+  background-color: hsl(212, 45%, 89%);
+  margin: 40px;
+  text-align: center;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: hsl(0, 0%, 100%);
+  width: 350px;
+  margin: 50px auto;
+  padding: 10px;
+  box-shadow: 3px 3px 10px rgb(201, 200, 200);
+  border-radius: 8px;
+}
+
+main img {
+  width: 300px;
+  border-radius: 8px;
+  object-fit: cover;
+  margin: 0;
+}
+
+main h2 {
+  margin: 24px 0 8px 0;
+  padding: ;
+  font-family: "Outfit", sans-serif;
+  font-size: medium;
+  font-weight: 700;
+}
+
+main p {
+  font-family: "Outfit", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
