@@ -5,7 +5,7 @@ html {
 }
 
 #card {
-  width: 20%;
+  max-width: 280px;
   margin: auto;
   padding-top: 0.3rem;
   padding-bottom: 1.5rem;
